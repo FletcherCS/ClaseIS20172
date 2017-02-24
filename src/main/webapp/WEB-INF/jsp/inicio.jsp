@@ -1,7 +1,7 @@
 <%-- 
     Document   : inicio
-    Created on : 20/02/2017, 11:08:36 PM
-    Author     : jonathan
+    Created on : 24/02/2017, 03:20:26 AM
+    Author     : Abraham
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,22 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/base.css" />
         <title>Inicio</title>
     </head>
     <body>
-        <h1>Ejemplo Spring</h1>
-        <hr>
-        <form method="GET" action="/Clase1/persona1">
-            <h2>Ingresa nombre</h2>
-            <input id="nombre2" name="nombre1" type="text" placeholder="Nombre">
-            <button>Aceptar</button>
-        </form>
-        <br><hr>
-        
-        <form method="POST" action="/Clase1/persona2">
-            <h2>Ingresa un nombre</h2>
-            <input id="nombre2" name="nombre2" type="text" placeholder="Nombre">
-            <button>Aceptar</button>
-        </form>
+        <div class="miDiv">
+            <h1>Iniciar Sesión</h1>
+            <form method="POST" action="/Clase1/persona2">
+                <input id="nombre2" name="nombre2" type="text" placeholder="Nombre">
+                <br><br>
+                <input id="nombre2" name="contrasena" type="text" placeholder="Contraseña">
+                <br><br>
+                <button>Aceptar</button>
+            </form>
+        </div>
     </body>
 </html>

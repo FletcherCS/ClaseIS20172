@@ -1,7 +1,7 @@
 <%-- 
     Document   : persona
-    Created on : 20/02/2017, 11:18:45 PM
-    Author     : jonathan
+    Created on : 20/02/2017, 03:22:45 AM
+    Author     : Abraham
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,9 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Info</title>
     </head>
     <body>
-        <h1>${persona}!</h1>
+        <h1>Nombre: ${persona}</h1>
+        <h1>Contraseña: ${contrasena}</h1>
     </body>
 </html>
